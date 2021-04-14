@@ -49,10 +49,13 @@ var questionThree = {
   question:"What is the name of my college? ",
   answer: "nift",
 }
+var questionFour = {
+  question:"Which is my favourite state in India? ",
+  answer: "himachal pradesh",
+}
 
 
-
-var questions = [questionOne,questionTwo,questionThree] //array
+var questions = [questionOne,questionTwo,questionThree,questionFour] //array
 
 
 function game(){
@@ -86,4 +89,4 @@ highscores.map(score => console.log(score.name, ":" , score.score))
 
 welcome();
 game();
-showScores();-15
+showScores();
