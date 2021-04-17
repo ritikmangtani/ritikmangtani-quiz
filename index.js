@@ -53,9 +53,12 @@ var questionFour = {
   question:"Which is my favourite state in India? ",
   answer: "himachal pradesh",
 }
+var questionFive = {
+  question:"What is my faviourte beverage? ",
+  answer: "bournvita",
+}
 
-
-var questions = [questionOne,questionTwo,questionThree,questionFour] //array
+var questions = [questionOne,questionTwo,questionThree,questionFour,questionFive] //array
 
 
 function game(){
@@ -70,10 +73,10 @@ for (var i=0; i<questions.length; i++){
 
 var highscores = [{
   name : "Ritesh",
-  score : 3,
+  score : 5,
 },{
   name : "Raju",
-  score : 2,
+  score : 4,
 }];
 
 
